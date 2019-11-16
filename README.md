@@ -82,27 +82,9 @@ The base ticket price is $1. Passengers will be charged $0.25 per kilometer. If 
 The value that your functions returns must be a string, formatted as such: $4.25. Your values must be shown to two decimal points of precision.
 
 # Day 15 Parade Position
+For this challenge you'll have to implement a function called finalPosition(), which will calculate the position of the parade based on an array of directional moves. The parade will move on an X-Y grid.
 
-const finalPosition = (moves) => {
-  var position = [0,0]
-  for (var move of moves) {
-    switch(move) {
-      case('north'):
-        position[1]++
-        break;
-      case('south'):
-        position[1]--
-        break;
-      case('east'):
-        position[0]++
-        break;
-      case('west'):
-        position[0]--
-        break;
-    }
-  }
-  return position
-}
+Your function will receive an array of moves, which are strings that say either north, south, west, or east, these represent the parade moving in a particular direction by a single space on the grid. By looking at the path that the parade moves in, your function should calculate and then return an array representing the position of the parade after completing all of the moves. The first element of the array should be the X position, and the second element of the array should be the Y position. The parade begins at [0,0].
 
 # Day 16 HSL Color
 
