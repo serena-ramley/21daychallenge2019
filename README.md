@@ -58,3 +58,6 @@ There are three kinds of possible vehicles: regular cars, small cars, and motorc
 Our function must return an array with the coordinates of the spot as an [X, Y] pair. See the example input and output below for an illustration.
 
 Note: There may be multiple available spots for a particular vehicle. It does not matter which spot your function chooses, as long as the spot is available. And if there are no available spots, remember to return false.
+
+# Day 11 Bus Times
+For this challenge, we'll implement a function called busTimes(). This function will calculate the arrival time for a collection of busses based on their current speed and distance from the stop. It will receive an object called buses, which contains a series of objects for each bus, with the distance of the bus and the speed that the bus is traveling at. Our function should return a new object that shows how long until each bus arrives at the stop.
