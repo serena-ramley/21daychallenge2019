@@ -23,3 +23,6 @@ The first item in the array votes[0] are the votes for Tim
 The second item in the arry votes[1] are the votes for Sally
 The third item in the array votes[2] are the votes for Beth
 For example in this array [0, 2, 1] there are 0 votes for Tim, 2 votes for Sally and 1 vote for Beth.
+
+# Day 4 Reminder To Vote
+Complete the function registerToVote(name, unregisteredVoters) that takes in the name of a newly registered voter and an array of names of those who have not yet registered to vote. Your function must return an array, with the newly registered voter's name removed.
