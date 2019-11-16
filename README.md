@@ -26,3 +26,8 @@ For example in this array [0, 2, 1] there are 0 votes for Tim, 2 votes for Sally
 
 # Day 4 Reminder To Vote
 Complete the function registerToVote(name, unregisteredVoters) that takes in the name of a newly registered voter and an array of names of those who have not yet registered to vote. Your function must return an array, with the newly registered voter's name removed.
+
+# Day 5 Voting Station Calculation
+Complete the function chooseStations(stations) that takes in an array of possible voting stations, and then only returns the names of the stations that are appropriate.
+Your function will receive an array of stations, where each station itself is an array with a name, a capacity, and a venue type.
+In order for a station to be deemed appropriate, it must have a capacity of at least 20, and be a school or community centre.
