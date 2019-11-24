@@ -129,3 +129,19 @@ The third element should represent how many pumpkin spice macarons the client ca
 The fourth element should represent how many grams of pumpkin spice the client will be buying
 
 Our function should start by calculating how many slices of pumpkin pie we can buy. Then, we'll want to use the remaining money to do the calculations for the lattes, followed lastly by the macarons.
+
+# Day 20 Bouncy Castles
+
+Each shape has a different calculation for determining volume, so we'll need to create a few functions that will help us figure out the volume of the various inflatable attractions.
+
+In this challenge, we'll need to implement four functions.
+
+The first three will calculate the volume of the individual shapes:
+
+sphereVolume()will calculate the volume of a sphere given a radius
+coneVolume() will calculate the volume of a cone given a radius and a height
+prismVolume() will calculate the volume of a prism given a height, a width, and a depth
+
+The fourth function, totalVolume(), will receive an array containing the different shapes that make up a single attraction. The totalVolume function should use the previous three functions to calculate the total volume of an attraction.
+
+Don't worry about getting the answers to the perfect precision: our tests will check to see that you're within a correct range.
