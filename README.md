@@ -1,5 +1,5 @@
 # 21daychallenge2019
-Lighthouse Labs 21-Day Coding Challenge in Javascript. Please note that some of these challenges had tutorials (e.g. Day 10 https://www.youtube.com/watch?v=PU4xyyg2uGA), so not all of the code in this repository is original, however the challenge was completed for the learning experience.
+Lighthouse Labs 21-Day Coding Challenge in Javascript. Please note that some of these challenges had tutorials (e.g. Day 10 https://www.youtube.com/watch?v=PU4xyyg2uGA), so not all of the code in this repository is original, however the challenge was completed for the learning experience and to make working in javascript a regular habit (code was uploaded to github in chunks, but worked on in a nearly daily basis at https://coding-challenge.lighthouselabs.ca/
 
 # Day 1 Door to Door
 Given an array of volunteer names and an array of neighbourhood names, complete the doorToDoor function so that it returns the number of neighbourhoods each volunteer should visit if the work of going door to door is split evenly amongst them.
